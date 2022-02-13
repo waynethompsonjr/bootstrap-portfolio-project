@@ -72,13 +72,38 @@ $ npm -v
 
 - The following command installs a node.js-based development web server. This web server is for development and testing purposes only.
     - The **--save-dev** flag means that it will not be included in the final build files.
-    - See [here](https://github.com/johnpapa/lite-server) for details.
+    - See [here](https://github.com/johnpapa/lite-server) for more details about lite-server.
 
 ```
 $ npm install lite-server --save-dev
 ```
+- To run: # The next step will add this command to the scripts in package.json
+```
+$ lite-server
+```
 
-
+- Add lite-server to package.json
+```json
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Git and NPM",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
+```
 
 ## :no_entry_sign: Limitations
 
