@@ -40,11 +40,29 @@ This project covers the basics of creating a mostly static website from scratch.
 
 | Step | Description |
 | :---: | :--- |
-| 1 | This is the first step in the build process. |
+| 1 | In this order, install and setup git, node.js and npm on your local machine. |
 | 2 | Now do this second step. |
 | 3 | Pay **special** ***attention*** to *this* **last _step_**. |
 
+**STEP 1:** INSTALL GIT, NODE.JS AND NPM
+In this order, install and setup git, node.js and npm on your local machine.
+- Download and install git on your local machine
+- Download and install Node.js version 16.13.2
+    - NPM is automatically installed when you install Node.js
+    
+
+**STEP 2:** VERIFY INSTALLATIONS
+Type each of the following at the command prompt, separately.
+- $ git version
+- $ node -v
+- $ npm -v
+
+**Output**
+- git version 2.34.1 # your version may differ
+- v14.17.5
+- 6.14.14
+
 ## :no_entry_sign: Limitations
 
-- :pencil2: **Working forms**
-    - :pushpin: Though the first iteration of the website was built to be responsive, with a mobile-first philosophy, it currently lacks many interactive features commonly found in modern webpages. It is a static website and the form fields are not functioning yet. The form's do not have the capability to capture, store, or retrieve data from users yet.
+- **Working forms** :pencil2:
+    - Though the first iteration of the website was built to be responsive, with a mobile-first philosophy, it currently lacks many interactive features commonly found in modern webpages. It is a static website and the form fields are not functioning yet. The form's do not have the capability to capture, store, or retrieve data from users yet.
