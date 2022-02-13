@@ -45,19 +45,24 @@ This project covers the basics of creating a mostly static website from scratch.
 | 3 | Pay **special** ***attention*** to *this* **last _step_**. |
 
 **STEP 1:** INSTALL GIT, NODE.JS AND NPM
+
 In this order, install and setup git, node.js and npm on your local machine.
+
 - Download and install git on your local machine
 - Download and install Node.js version 16.13.2
     - NPM is automatically installed when you install Node.js
     
 
 **STEP 2:** VERIFY INSTALLATIONS
+
 Type each of the following at the command prompt, separately.
+
 - $ git version
 - $ node -v
 - $ npm -v
 
 **Output**
+
 - git version 2.34.1 # your version may differ
 - v14.17.5
 - 6.14.14
