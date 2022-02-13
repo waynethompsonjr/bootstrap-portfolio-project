@@ -56,7 +56,6 @@ In this order, install and setup git, node.js and npm on your local machine.
 **STEP 2:** VERIFY INSTALLATIONS
 
 Type each of the following at the command prompt, separately.
-
 ```
 $ git version
 $ node -v
@@ -68,6 +67,18 @@ $ npm -v
 - git version 2.34.1   *# your version may differ*
 - v14.17.5
 - 6.14.14
+
+**STEP 3:** INSTALL NPM LITE-SERVER
+
+- The following command installs a node.js-based development web server. This web server is for development and testing purposes only.
+    - The **--save-dev** flag means that it will not be included in the final build files.
+    - See [here](https://github.com/johnpapa/lite-server) for details.
+
+```
+$ npm install lite-server --save-dev
+```
+
+
 
 ## :no_entry_sign: Limitations
 
