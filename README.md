@@ -63,7 +63,7 @@ Type each of the following at the command prompt, separately.
 
 **Output**
 
-- git version 2.34.1 # your version may differ
+- git version 2.34.1 *# your version may differ*
 - v14.17.5
 - 6.14.14
 
