@@ -43,3 +43,8 @@ This project covers the basics of creating a mostly static website from scratch.
 | 1 | This is the first step in the build process. |
 | 2 | Now do this second step. |
 | 3 | Pay **special** ***attention*** to *this* **last _step_**. |
+
+## Limitations
+
+- :no_entry_sign: **Working forms**
+    - :pushpin: Though the first iteration of the website was built to be responsive, with a mobile-first philosophy, it currently lacks many interactive features commonly found in modern webpages. It is a static website and the form fields are not functioning yet. The form's do not have the capability to capture, store, or retrieve data from users yet.
