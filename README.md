@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-[Purpose](#purpose)
-[Tech stack](#tech-stack)
-[Task list](#task-list)
-[Features](#features)
-[Build process](#build-process)
+- [Purpose](#purpose)
+- [Tech stack](#tech-stack)
+- [Task list](#task-list)
+- [Features](#features)
+- [Build process](#build-process)
 
 ## Purpose
 
