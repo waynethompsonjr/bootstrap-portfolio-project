@@ -39,7 +39,6 @@ This project covers the basics of creating a mostly static website from scratch.
 ## Build Process
 
 | Step | Description |
-| ---- | ----------- |
 | :---: | :--- |
 | 1 | This is the first step in the build process. |
 | 2 | Now do this second step. |
