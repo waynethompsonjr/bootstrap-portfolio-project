@@ -85,9 +85,9 @@ $ lite-server
 - Add lite-server to package.json
 ```json
 {
-  "name": "git-test",
-  "version": "1.0.0",
-  "description": "Git and NPM",
+  "name": "BudgetCents",
+  "version": "0.0.1",
+  "description": "BudgetCents is a no-frills web app for managing your monthly finances",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -95,14 +95,22 @@ $ lite-server
     "lite": "lite-server"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/waynethompsonjr/bootstrap-portfolio-project.git"
   },
-  "author": "",
+  "author": "Wayne Thompson",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.6.1"
   }
 }
+```
+
+**STEP 4:** START THE WEB SERVER
+
+The following command calls the **_start_** script inside package.json. The **_start_** script will execute __$ npm run lite__.
+```
+$ npm start
 ```
 
 ## :no_entry_sign: Limitations
