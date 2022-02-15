@@ -113,7 +113,28 @@ The following command calls the **_start_** script inside package.json. The **_s
 $ npm start
 ```
 
+**STEP 5:** INSTALL JQUERY, POPPER AND BOOTSTRAP
+
+- Since this website uses Bootstrap 4, it is necessary to leverage jquery. 
+- Additionally, Bootstrap 4 semi-requires popper.js for tooltips, popovers, dropdowns and modals.
+- Last, instead of calling Bootstrap via CDN, I have chosen to install it. You can skip this if you prefer.
+
+```
+$ npm install jquery@3.5.1 popper.js@1.16.1
+$ npm install bootstrap@4.5.2
+```
+
+- Modify the package.json file as follows:
+```json
+
+```
+
+
 ## :no_entry_sign: Limitations
 
 - **Working forms** :pencil2:
     - Though the first iteration of the website was built to be responsive, with a mobile-first philosophy, it currently lacks many interactive features commonly found in modern webpages. It is a static website and the form fields are not functioning yet. The form's do not have the capability to capture, store, or retrieve data from users yet.
+
+## Documentation
+- [Confluence](https://budgetcents.atlassian.net/wiki/spaces/BUDGETCENT/overview?homepageId=33219)
+- [Jira](https://budgetcents.atlassian.net/jira/software/c/projects/BUD/boards/1)
