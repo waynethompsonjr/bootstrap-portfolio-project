@@ -106,9 +106,9 @@ $ lite-server
 }
 ```
 
-**STEP 4:** START THE WEB SERVER
+**STEP 4:** START THE DEVELOPMENT WEB SERVER
 
-The following command calls the **_start_** script inside package.json. The **_start_** script will execute *$ npm run lite*__*.
+The following command calls the **_start_** script inside package.json. The **_start_** script will execute *$ npm run lite*.
 ```
 $ npm start
 ```

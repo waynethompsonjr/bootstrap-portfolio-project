@@ -4,7 +4,9 @@
   "description": "## Table of Contents",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/waynethompsonjr/bootstrap-portfolio-project/issues"
   },
-  "homepage": "https://github.com/waynethompsonjr/bootstrap-portfolio-project#readme"
+  "homepage": "https://github.com/waynethompsonjr/bootstrap-portfolio-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
